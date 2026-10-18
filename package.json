@@ -1,0 +1,43 @@
+{
+  "name": "finn-tannlege-mcp",
+  "version": "0.2.0",
+  "mcpName": "io.github.slookisen/finn-tannlege-mcp",
+  "description": "MCP server for finn-tannlege.com — find Norwegian dental clinics from Claude Desktop, ChatGPT, and other AI assistants. 5,400+ clinics with Helfo-agreement, specialty, and emergency-duty data.",
+  "main": "index.js",
+  "bin": {
+    "finn-tannlege-mcp": "index.js"
+  },
+  "type": "module",
+  "files": [
+    "index.js",
+    "stdio-bridge.js",
+    "README.md",
+    "server.json"
+  ],
+  "keywords": [
+    "mcp",
+    "claude",
+    "tannlege",
+    "dentist",
+    "norway",
+    "a2a",
+    "finn-tannlege",
+    "dental",
+    "helfo",
+    "norwegian-healthcare"
+  ],
+  "author": "Daniel Fredriksen",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slookisen/lokal.git",
+    "directory": "mcp-server-dental"
+  },
+  "homepage": "https://finn-tannlege.com",
+  "bugs": {
+    "url": "https://github.com/slookisen/lokal/issues"
+  }
+}
